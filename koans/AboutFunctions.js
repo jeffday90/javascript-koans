@@ -18,7 +18,6 @@ describe("About Functions", function() {
     
     function overrideMessage() {
       var message = "Inner";
-
       return message;
     }
     
@@ -109,3 +108,5 @@ describe("About Functions", function() {
     expect(multiply.toString()).toBe('function(a, b) {\n      // An internal comment\n      return a * b;\n    }')
   });    
 });
+
+
