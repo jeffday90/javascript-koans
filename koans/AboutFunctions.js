@@ -18,7 +18,8 @@ describe("About Functions", function() {
     
     function overrideMessage() {
       var message = "Inner";
-      return message;
+      
+        return message;
     }
     
     expect(getMessage()).toBe("Outer");
